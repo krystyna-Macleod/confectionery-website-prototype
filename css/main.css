@@ -359,7 +359,7 @@ footer {
   }
 
   header nav {
-    display:inline-block
+    display: inline-block;
   }
 
   .hours {
@@ -376,8 +376,14 @@ footer {
   }
 
   .location-img {
+    position: relative;
     width: 100%;
     padding: 0;
+  }
+
+  .location-content {
+    position: absolute;
+
   }
 
 }
