@@ -230,6 +230,11 @@ cite {
   font-family: "Dancing Script", cursive;
 }
 
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
 footer {
   background-color: #737373;
   text-align: center;
@@ -237,9 +242,4 @@ footer {
   font-size: .875rem;
   padding: 0;
   margin: 0;
-}
-
-footer p {
-  margin: 0;
-  padding: 0;
 }
