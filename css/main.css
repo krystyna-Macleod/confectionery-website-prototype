@@ -114,16 +114,21 @@ p {
 .hours {
   display: inline-block;
   margin: 0;
-  width: 50%;
+}
+
+.hours h2 {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .hours-img {
   display: inline-block;
-  width: 25%;
+  width: 50%;
   text-align: center;
 }
 
 .hours-box {
+  width: 50%;
   text-align: center;
   display: inline;
 }
@@ -134,5 +139,5 @@ p {
 }
 
 .box2 {
-  float : right;
+  float : left;
 }
