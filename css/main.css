@@ -344,3 +344,23 @@ footer {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font: normal 120%/1.5 "Open Sans", sans-serif, "Dancing Script", cursive;
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font: normal 130%/1.5 "Open Sans", sans-serif, "Dancing Script", cursive;
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+}
