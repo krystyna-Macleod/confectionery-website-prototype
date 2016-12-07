@@ -142,7 +142,7 @@ p {
   float: left;
 }
 
-.hours-btn a {
+.hours-btn {
   text-decoration: none;
   color: #000;
 }
@@ -176,7 +176,7 @@ p {
   margin-bottom: .2em;
 }
 
-.location-btn nav a {
+.location-btn {
   text-decoration: none;
   color: #000;
 }
