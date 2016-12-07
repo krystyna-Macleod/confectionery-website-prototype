@@ -161,12 +161,19 @@ p {
 }
 
 .location {
+  background-color: #b3b3b3;
   margin: .1em;
   padding: .4em;
 }
 
 .location-img {
   padding: .5em;
+}
+
+.location-content h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: .2em;
 }
 
 .location-btn a {
