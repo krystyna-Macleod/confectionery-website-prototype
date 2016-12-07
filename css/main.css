@@ -303,4 +303,44 @@ footer {
     line-height: 1.4;
   }
 
+  .menu {
+    display: inline-block;
+  }
+
+  .menu-img {
+    display: inline-block;
+  }
+
+  .menu-content {
+    display: inline-block;
+  }
+
+  .hours {
+    margin-bottom: 0;
+  }
+
+  .contact {
+    margin-bottom: 12em;
+  }
+
+   figure {
+    position: absolute;
+    left: 5em;
+    width: 25%;
+  }
+
+  .contact h2 {
+    position: absolute;
+    right: 5em;
+    bottom: -5em;
+  }
+
+  .review-img {
+    padding:  0 .2em 2em;
+  }
+
+  .review-content h2 {
+    margin-top: 0;
+  }
+
 }
