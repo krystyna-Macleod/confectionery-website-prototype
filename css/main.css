@@ -195,18 +195,28 @@ p {
 }
 
 .contact {
+  position: relative;
   padding: .2em;
+  overflow: visible;
 }
 
-.contact-img {
-  float: left;
+figure {
+  position: absolute;
+  left: -.5em;
   width: 25%;
 }
 
 figcaption {
-  float: right;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.25rem;
 }
 
 .contact h2 {
-  
+  position: absolute;
+  right: .6em;
+  bottom: -4em;
+}
+
+.review {
+  margin-top: 8em;
 }
