@@ -18,10 +18,15 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 body {
   background-color: #f2f2f2;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 header {
