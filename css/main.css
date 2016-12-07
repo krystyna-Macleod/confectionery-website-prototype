@@ -40,4 +40,10 @@ h1 {
   color: #fff;
   padding: 0;
   margin: 0;
+  text-align: center;
+}
+
+nav ol {
+  text-decoration: none;
+  list-style-type: none;
 }
