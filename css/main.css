@@ -89,7 +89,6 @@ p {
 }
 
 .menu-img {
-  display: inline-block;
   width: 25%;
   margin: 0;
 }
@@ -98,7 +97,7 @@ p {
   margin: .5em;
 }
 
-.menu-img, .menu-content h2 {
+.menu-box {
   display: block;
 }
 
@@ -108,7 +107,6 @@ p {
 }
 
 .menu-content p {
-  display: block;
   margin: 0;
   padding: .3em;
 }
