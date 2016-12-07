@@ -114,6 +114,7 @@ p {
 .hours {
   display: inline-block;
   margin: 0;
+  margin-bottom: 1em;
 }
 
 .hours h2 {
@@ -138,4 +139,17 @@ p {
 
 .hours-box2 {
   float: left;
+}
+
+.hours-btn {
+  display: inline-block;
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  padding: .4em .3em;
+  font-size: 1.125rem;
+  border: #bfbfbf 3px solid;
+}
+
+.btn:hover {
+  background-color: #000;
 }
