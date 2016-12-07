@@ -130,14 +130,12 @@ p {
 .hours-box {
   width: 50%;
   text-align: center;
-  display: inline;
 }
-
 
 .box1 {
   float: left;
 }
 
 .box2 {
-  float : left;
+  float: left;
 }
