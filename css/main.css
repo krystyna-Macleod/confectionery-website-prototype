@@ -106,6 +106,7 @@ p {
 .menu-content h2 {
   display: inline-block;
   margin-bottom: 0;
+  padding: .3em;
 }
 
 .menu-content p {
@@ -245,5 +246,35 @@ footer {
 
   html {
     font: normal 100%/1.3 "Open Sans", sans-serif, "Dancing Script", cursive;
+    font-size: 100%;
+    line-height: 1.3;
   }
-}
+
+  header nav {
+  text-align: center;
+  }
+
+  header nav li {
+    display: inline-block;
+    text-align: center;
+    padding: .2em;
+    margin: .2em;
+  }
+
+  .menu-box {
+    display: block;
+  }
+
+  .menu-img {
+    display: inline-block;
+  }
+
+  .menu-content {
+    display: inline-block
+  }
+
+  .menu-content p {
+    font-size: .875rem;
+  }
+
+  }
