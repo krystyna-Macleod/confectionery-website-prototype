@@ -205,5 +205,27 @@ figcaption {
 }
 
 .review {
+  background-color: #e6e6e6;
   margin-top: 8em;
+}
+
+.review-img {
+  padding: 2em;
+}
+
+.review-content {
+  padding: .2em;
+}
+
+.review-content h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+blockquote {
+  font-size: .875rem;
+}
+
+cite {
+  font-family: "Dancing Script", cursive;
 }
