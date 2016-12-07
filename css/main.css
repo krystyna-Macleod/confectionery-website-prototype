@@ -388,7 +388,7 @@ footer {
     position: absolute;
     right: 1em;
     bottom: 5em;
-    padding: .3em
+    padding: .3em;
   }
 
   .location-content h2 {
@@ -396,13 +396,41 @@ footer {
   }
 
   .btn, .location-btn {
-    background-color: #999999;
+    background-color: #999;
   }
 
   .location-btn {
-    position:absolute;
+    position: absolute;
     right: 1em;
     bottom: .3em;
+  }
+
+  .contact {
+    margin-bottom: 17em;
+  }
+
+  figure img {
+    width: 110%;
+  }
+
+  figure {
+    position: absolute;
+    left: 5em;
+    width: 25%;
+  }
+
+  .contact h2 {
+    position: absolute;
+    right: 7em;
+    bottom: -7em;
+  }
+
+  .review-img {
+    padding: 0 .2em 2em;
+  }
+
+  .review-content h2 {
+    margin-top: 0;
   }
 
 }
@@ -414,3 +442,5 @@ footer {
     font-size: 130%;
     line-height: 1.5;
   }
+
+}
