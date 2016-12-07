@@ -112,10 +112,27 @@ p {
 }
 
 .hours {
+  display: inline-block;
   margin: 0;
+  width: 50%;
 }
 
 .hours-img {
+  display: inline-block;
   width: 25%;
   text-align: center;
+}
+
+.hours-box {
+  text-align: center;
+  display: inline;
+}
+
+
+.box1 {
+  float: left;
+}
+
+.box2 {
+  float : right;
 }
