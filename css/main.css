@@ -323,7 +323,7 @@ footer {
     margin-bottom: 12em;
   }
 
-   figure {
+  figure {
     position: absolute;
     left: 5em;
     width: 25%;
@@ -336,7 +336,7 @@ footer {
   }
 
   .review-img {
-    padding:  0 .2em 2em;
+    padding: 0 .2em 2em;
   }
 
   .review-content h2 {
