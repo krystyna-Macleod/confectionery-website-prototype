@@ -113,6 +113,7 @@ p {
 
 .hours {
   display: inline-block;
+  background-color: #e6e6e6;
   margin: 0;
   margin-bottom: 1em;
 }
@@ -141,15 +142,47 @@ p {
   float: left;
 }
 
-.hours-btn {
+.hours-btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
   display: inline-block;
   background-color: #e6e6e6;
   border-radius: 3px;
   padding: .4em .3em;
   font-size: 1.125rem;
-  border: #bfbfbf 3px solid;
+  margin: .2em;
 }
 
 .btn:hover {
-  background-color: #000;
+  background-color: #8c8c8c;
+}
+
+.location {
+  margin: .1em;
+  padding: .4em;
+}
+
+.location-img {
+  padding: .5em;
+}
+
+.location-btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  padding: .4em .3em;
+  font-size: 1.125rem;
+  margin: .2em;
+}
+
+.btn:hover {
+  background-color: #8c8c8c;
 }
