@@ -112,6 +112,7 @@ p {
 .menu-content p {
   margin: 0;
   padding: .3em;
+  font-size: .875rem;
 }
 
 .hours {
@@ -251,7 +252,7 @@ footer {
   }
 
   header nav {
-  text-align: center;
+    text-align: center;
   }
 
   header nav li {
@@ -261,20 +262,33 @@ footer {
     margin: .2em;
   }
 
-  .menu-box {
-    display: block;
-  }
+  .contact {
+  position: relative;
+  padding: .2em;
+  overflow: visible;
+}
 
-  .menu-img {
-    display: inline-block;
-  }
+figure {
+  position: absolute;
+  left: .7em;
+  width: 25%;
+}
 
-  .menu-content {
-    display: inline-block
-  }
+figcaption {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.25rem;
+  text-align: center;
+}
 
-  .menu-content p {
-    font-size: .875rem;
-  }
+.contact h2 {
+  position: absolute;
+  right: 2em;
+  bottom: -4em;
+}
 
-  }
+.review {
+  padding: 0 .3em;
+  margin-top: 7em;
+}
+
+}
