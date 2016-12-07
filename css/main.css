@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -60,5 +61,29 @@ nav ol a:hover {
 }
 
 h2, h3 {
+  font-family: "Dancing Script", cursive;
+}
+
+p {
   font-family: "Open Sans", sans-serif;
+}
+
+.special {
+  background-color: #b3b3b3;
+}
+
+.special-content {
+  text-align: center;
+}
+
+.special-content h2 {
+  font-size: 2em;
+  padding: .2em;
+  margin: .1em;
+}
+
+.special-content p {
+  margin: 0;
+  padding-bottom: .3em;
+  color: #f2f2f2;
 }
