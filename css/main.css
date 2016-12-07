@@ -371,19 +371,38 @@ footer {
   }
 
   .location {
+    position: relative;
+    overflow: hidden;
     padding: 0;
     margin: 0;
   }
 
   .location-img {
-    position: relative;
     width: 100%;
     padding: 0;
   }
 
   .location-content {
+    background-color: #b3b3b3;
+    border-radius: 4px;
     position: absolute;
+    right: 1em;
+    bottom: 5em;
+    padding: .3em
+  }
 
+  .location-content h2 {
+    margin-top: 0;
+  }
+
+  .btn, .location-btn {
+    background-color: #999999;
+  }
+
+  .location-btn {
+    position:absolute;
+    right: 1em;
+    bottom: .3em;
   }
 
 }
@@ -395,5 +414,3 @@ footer {
     font-size: 130%;
     line-height: 1.5;
   }
-
-}
