@@ -65,6 +65,8 @@ h2, h3 {
 }
 
 p {
+  padding: 0;
+  margin: 0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -228,11 +230,6 @@ blockquote {
 
 cite {
   font-family: "Dancing Script", cursive;
-}
-
-footer p {
-  margin: 0;
-  padding: 0;
 }
 
 footer {
