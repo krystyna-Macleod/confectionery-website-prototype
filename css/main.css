@@ -229,3 +229,17 @@ blockquote {
 cite {
   font-family: "Dancing Script", cursive;
 }
+
+footer {
+  background-color: #737373;
+  text-align: center;
+  font-style: italic;
+  font-size: .875rem;
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
