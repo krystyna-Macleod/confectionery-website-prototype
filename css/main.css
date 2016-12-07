@@ -193,3 +193,20 @@ p {
 .btn:hover {
   background-color: #8c8c8c;
 }
+
+.contact {
+  padding: .2em;
+}
+
+.contact-img {
+  float: left;
+  width: 25%;
+}
+
+figcaption {
+  float: right;
+}
+
+.contact h2 {
+  
+}
