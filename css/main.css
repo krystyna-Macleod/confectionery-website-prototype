@@ -110,3 +110,12 @@ p {
   margin: 0;
   padding: .3em;
 }
+
+.hours {
+  margin: 0;
+}
+
+.hours-img {
+  width: 25%;
+  text-align: center;
+}
