@@ -465,4 +465,29 @@ footer {
     line-height: 1.5;
   }
 
+  header nav {
+    float: right;
+  }
+
+  .contact {
+    margin-bottom: 23em;
+  }
+
+  figure {
+    position: absolute;
+    left: 10em;
+    width: 25%;
+  }
+
+  .contact h2 {
+    position: absolute;
+    right: 5em;
+    bottom: -5em;
+    font-size: 3rem;
+  }
+
+  .review-img {
+    padding: 0 6em 2em;
+  }
+
 }
