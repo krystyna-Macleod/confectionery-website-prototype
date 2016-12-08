@@ -234,6 +234,8 @@ blockquote {
 }
 
 cite {
+  margin: .5em;
+  display: block;
   font-family: "Dancing Script", cursive;
 }
 
