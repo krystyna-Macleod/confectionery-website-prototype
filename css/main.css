@@ -362,6 +362,15 @@ footer {
     display: inline-block;
   }
 
+  .menu {
+    display: block;
+  }
+
+  .menu-box {
+    display: inline-block;
+    width: 32%;
+  }
+
   .hours {
     width: 100%;
   }
