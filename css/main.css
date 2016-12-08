@@ -423,17 +423,6 @@ footer {
     float: right;
   }
 
-  .contact {
-    width: 100%;
-    margin-bottom: 23em;
-  }
-
-  figure {
-    position: absolute;
-    left: 10em;
-    width: 25%;
-  }
-
   .review-img {
     padding: 0 6em 2em;
   }
