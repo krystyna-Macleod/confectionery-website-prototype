@@ -188,25 +188,28 @@ p {
 
 .contact {
   width: 100%;
-  position: relative;
-  overflow: visible;
+  display: block;
+  margin: .2em;
+}
+
+.contact-content {
+  margin: 0;
+  padding: 0;
 }
 
 figure {
-  position: absolute;
-  left: -.5em;
-  width: 25%;
+  display: inline-block;
 }
 
 figcaption {
   font-family: "Dancing Script", cursive;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 .contact h2 {
-  position: absolute;
-  right: .6em;
-  bottom: -4em;
+  display: block;
+  text-align: center;
 }
 
 .review {
@@ -264,30 +267,15 @@ footer {
     margin: .2em;
   }
 
-  .contact {
-    width: 100%;
-    position: relative;
-    padding: .2em;
-    overflow: visible;
-    margin-bottom: 9em;
-  }
-
   figure {
-    position: absolute;
-    left: .7em;
-    width: 25%;
-  }
-
-  figcaption {
-    font-family: "Dancing Script", cursive;
-    font-size: 1.25rem;
-    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 0;
   }
 
   .contact h2 {
-    position: absolute;
-    right: 2em;
-    bottom: -4em;
+    display: inline-block;
+    width: 50%;
   }
 
   .review {
@@ -319,23 +307,6 @@ footer {
 
   .hours {
     margin-bottom: 0;
-  }
-
-  .contact {
-    width: 100%;
-    margin-bottom: 12em;
-  }
-
-  figure {
-    position: absolute;
-    left: 5em;
-    width: 25%;
-  }
-
-  .contact h2 {
-    position: absolute;
-    right: 5em;
-    bottom: -5em;
   }
 
   .review-img {
@@ -426,23 +397,6 @@ footer {
     bottom: .3em;
   }
 
-  .contact {
-    width: 100%;
-    margin-bottom: 17em;
-  }
-
-  figure {
-    position: absolute;
-    left: 5em;
-    width: 25%;
-  }
-
-  .contact h2 {
-    position: absolute;
-    right: 7em;
-    bottom: -7em;
-  }
-
   .review-img {
     padding: 3em 3em 2em;
   }
@@ -478,13 +432,6 @@ footer {
     position: absolute;
     left: 10em;
     width: 25%;
-  }
-
-  .contact h2 {
-    position: absolute;
-    right: 5em;
-    bottom: -5em;
-    font-size: 3rem;
   }
 
   .review-img {
