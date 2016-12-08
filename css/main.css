@@ -74,17 +74,15 @@ p {
   background-color: #b3b3b3;
 }
 
-.special-content {
-  text-align: center;
-}
-
 .special-content h2 {
+  text-align: center;
   font-size: 2em;
   padding: .2em;
   margin: .1em;
 }
 
 .special-content p {
+  text-align: center;
   margin: 0;
   padding-bottom: .3em;
   color: #f2f2f2;
@@ -95,12 +93,9 @@ p {
   margin: 0;
 }
 
-.menu {
-  margin: .5em;
-}
-
 .menu-box {
   display: block;
+  margin: .5em;
 }
 
 .menu-content h2 {
@@ -119,7 +114,6 @@ p {
   display: inline-block;
   background-color: #e6e6e6;
   margin: 0;
-  margin-bottom: 1em;
   width: 100%;
 }
 
@@ -158,7 +152,7 @@ p {
   border-radius: 3px;
   padding: .4em .3em;
   font-size: 1.125rem;
-  margin: .2em;
+  margin: .3em;
 }
 
 .btn:hover {
@@ -167,7 +161,7 @@ p {
 
 .location {
   background-color: #b3b3b3;
-  margin: .1em;
+  margin: 0;
   padding: .4em;
 }
 
@@ -190,6 +184,7 @@ p {
   width: 100%;
   display: block;
   margin: .2em;
+  text-align: center;
 }
 
 .contact-content {
@@ -204,11 +199,6 @@ figure {
 figcaption {
   font-family: "Dancing Script", cursive;
   font-size: 1.25rem;
-  text-align: center;
-}
-
-.contact h2 {
-  display: block;
   text-align: center;
 }
 
