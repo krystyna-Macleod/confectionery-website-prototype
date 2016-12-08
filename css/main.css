@@ -366,6 +366,10 @@ footer {
     display: block;
   }
 
+  .menu-img img {
+    text-align: center;
+  }
+
   .menu-box {
     display: inline-block;
     width: 32%;
@@ -435,11 +439,15 @@ footer {
   }
 
   .review-img {
-    padding: 0 .2em 2em;
+    padding: 3em 3em 2em;
   }
 
   .review-content h2 {
     margin-top: 0;
+  }
+
+  .review-content {
+    padding: 0 3em 2em;
   }
 
 }
