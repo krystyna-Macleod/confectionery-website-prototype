@@ -120,6 +120,7 @@ p {
   background-color: #e6e6e6;
   margin: 0;
   margin-bottom: 1em;
+  width: 100%;
 }
 
 .hours h2 {
@@ -186,8 +187,8 @@ p {
 }
 
 .contact {
+  width: 100%;
   position: relative;
-  padding: .2em;
   overflow: visible;
 }
 
@@ -264,6 +265,7 @@ footer {
   }
 
   .contact {
+    width: 100%;
     position: relative;
     padding: .2em;
     overflow: visible;
@@ -320,6 +322,7 @@ footer {
   }
 
   .contact {
+    width: 100%;
     margin-bottom: 12em;
   }
 
@@ -424,6 +427,7 @@ footer {
   }
 
   .contact {
+    width: 100%;
     margin-bottom: 17em;
   }
 
@@ -466,6 +470,7 @@ footer {
   }
 
   .contact {
+    width: 100%;
     margin-bottom: 23em;
   }
 
