@@ -366,13 +366,18 @@ footer {
     display: block;
   }
 
-  .menu-img img {
-    text-align: center;
+  .menu-img {
+    width: 50%;
   }
 
   .menu-box {
     display: inline-block;
     width: 32%;
+    text-align: center;
+  }
+
+  .menu-content p {
+    text-align: left;
   }
 
   .hours {
