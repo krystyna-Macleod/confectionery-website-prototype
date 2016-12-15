@@ -45,14 +45,15 @@ h1 {
 
 nav ol {
   list-style-type: none;
-  padding: .2em;
-  margin: .2em;
+  padding: .3em;
+  margin: .5em;
 }
 
 nav ol a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+  padding: .5em;
 }
 
 nav ol a:hover {
@@ -72,6 +73,10 @@ p {
 
 .special {
   background-color: #b3b3b3;
+}
+
+.special-img {
+  width: 100%;
 }
 
 .special-content h2 {
@@ -141,13 +146,19 @@ p {
   float: left;
 }
 
-.hours-btn {
-  text-decoration: none;
+a {
   color: #000;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .btn {
   display: inline-block;
+  border: 2px #000 solid;
   background-color: #e6e6e6;
   border-radius: 3px;
   padding: .4em .3em;
@@ -326,10 +337,6 @@ footer {
     display: inline-block;
   }
 
-  .menu-img {
-    width: 50%;
-  }
-
   .menu-box {
     display: inline-block;
     margin: .3em;
@@ -343,7 +350,7 @@ footer {
   }
 
   .hours {
-    width: 100%;
+    width: 50%;
   }
 
   .hours-img {
@@ -390,6 +397,7 @@ footer {
   }
 
   .review-img {
+    text-align: center;
     padding: 3em 3em 2em;
   }
 
