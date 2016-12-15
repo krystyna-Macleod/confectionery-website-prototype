@@ -364,15 +364,25 @@ footer {
   }
 
   .hours {
-    width: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
   }
 
   .hours-img {
-    width: 35%;
+    width: 25%;
   }
 
   .hours h3 {
     margin-bottom: 0;
+  }
+
+  .hours-box1 {
+    float: left;
+  }
+
+  .hours-box2 {
+    float: left;
   }
 
   .location {
@@ -398,16 +408,6 @@ footer {
 
   .location-content h2 {
     margin-top: 0;
-  }
-
-  .btn, .location-btn {
-    background-color: #999;
-  }
-
-  .location-btn {
-    position: absolute;
-    right: 1em;
-    bottom: .3em;
   }
 
   .review-img {
@@ -443,8 +443,25 @@ footer {
     text-align: center;
   }
 
+  .img-special {
+    padding: 3rem;
+    padding-bottom: 0;
+  }
+
   .review-img {
     padding: 0 6em 2em;
   }
+
+  .location-img {
+    padding: 0 6rem;
+  }
+
+  .location-content {
+    position: absolute;
+    right: 8em;
+    bottom: 5em;
+    padding: .3em;
+  }
+
 
 }
