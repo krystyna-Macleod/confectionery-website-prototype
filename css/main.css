@@ -95,8 +95,7 @@ p {
 
 .menu-box {
   display: block;
-  margin: .1em;
-  border: solid 3px #333;
+  margin: .5em;
 }
 
 .menu-content h2 {
@@ -327,16 +326,14 @@ footer {
     display: inline-block;
   }
 
-  .menu {
-    display: block;
-  }
-
   .menu-img {
     width: 50%;
   }
 
   .menu-box {
     display: inline-block;
+    margin: .3em;
+    border: solid 3px #333;
     width: 25%;
     text-align: center;
   }
