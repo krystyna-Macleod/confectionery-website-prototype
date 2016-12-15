@@ -442,7 +442,7 @@ footer {
     text-align: center;
   }
 
-  .img-review{
+  .img-review {
     display: inline-block;
     text-align: center;
     margin: 0 auto;
@@ -463,6 +463,5 @@ footer {
   .review-img {
     width: 50%;
   }
-
 
 }
