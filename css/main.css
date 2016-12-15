@@ -399,9 +399,14 @@ footer {
     margin-top: 0;
   }
 
-  .review-img {
+  .review {
+    display: inline-block;
     text-align: center;
-    padding: 3em 3em 2em;
+  }
+
+  .review-img {
+    width: 50%;
+    margin: 0 auto;
   }
 
   .review-content h2 {
@@ -458,10 +463,6 @@ footer {
     right: 8em;
     bottom: 5em;
     padding: .3em;
-  }
-
-  .review-img {
-    width: 50%;
   }
 
 }
