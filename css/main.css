@@ -47,6 +47,7 @@ nav ol {
   list-style-type: none;
   padding: .3em;
   margin: .5em;
+  margin-bottom: 0;
 }
 
 nav ol a {
@@ -93,23 +94,35 @@ p {
   color: #f2f2f2;
 }
 
+.menu {
+  display: inline-block;
+  text-align: center;
+}
+
 .menu-img {
+  display: inline-block;
   width: 25%;
-  margin: 0;
+}
+
+.img-menu {
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
 }
 
 .menu-box {
-  display: block;
   margin: .5em;
 }
 
 .menu-content h2 {
+  text-align: left;
   display: inline-block;
   margin-bottom: 0;
   padding: .3em;
 }
 
 .menu-content p {
+  text-align: left;
   margin: 0;
   padding: .3em;
   font-size: .875rem;
@@ -163,7 +176,7 @@ a:hover {
   border-radius: 3px;
   padding: .4em .3em;
   font-size: 1.125rem;
-  margin: .3em;
+  margin: .5em;
 }
 
 .btn:hover {
@@ -219,6 +232,7 @@ figcaption {
 
 .review-img {
   padding: 2em;
+  padding-bottom: 0;
 }
 
 .review-content {
