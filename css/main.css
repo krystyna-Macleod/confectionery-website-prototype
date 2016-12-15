@@ -348,6 +348,10 @@ footer {
     text-align: center;
   }
 
+  .menu-img {
+    width: 100%;
+  }
+
   .menu-content p {
     text-align: left;
   }
