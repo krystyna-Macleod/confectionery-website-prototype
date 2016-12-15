@@ -95,7 +95,8 @@ p {
 
 .menu-box {
   display: block;
-  margin: .5em;
+  margin: .1em;
+  border: solid 3px #333;
 }
 
 .menu-content h2 {
