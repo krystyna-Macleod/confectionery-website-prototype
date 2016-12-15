@@ -63,13 +63,13 @@ nav ol a {
   padding: .5em;
 }
 
+a:hover {
+  color: #fff;
+}
+
 nav ol a:hover {
   color: #262626;
   background-color: #ccc;
-}
-
-a:hover {
-  color: #fff;
 }
 
 h2, h3 {
