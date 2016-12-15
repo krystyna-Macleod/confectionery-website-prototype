@@ -283,17 +283,6 @@ footer {
     margin: .2em;
   }
 
-  figure {
-    display: inline-block;
-    width: 30%;
-    margin: 0;
-  }
-
-  .contact h2 {
-    display: inline-block;
-    width: 50%;
-  }
-
   .review {
     padding: 0 .3em;
   }
@@ -448,7 +437,15 @@ footer {
     padding-bottom: 0;
   }
 
-  .review-img {
+  .review {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .img-review{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
     padding: 0 6em 2em;
   }
 
@@ -461,6 +458,10 @@ footer {
     right: 8em;
     bottom: 5em;
     padding: .3em;
+  }
+
+  .review-img {
+    width: 50%;
   }
 
 
